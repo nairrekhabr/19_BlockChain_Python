@@ -46,7 +46,7 @@ def derive_wallets(coin=BTC, mnemonic=mnemonic, depth=3):
 
 pprint(coins)
 
-- When done properly, the final object should look something like this
+- When done properly, running the wallet.py  the final object should look something like this
 
 {'btc-test': [{'address': 'n45VqiDaT4R9WCe5fGMoW74ZsSaWWCgWyA',
                'index': 0,
@@ -95,6 +95,17 @@ pprint(coins)
           'pubkey': '02029530a9f83114b7ae9aca41f29ce96276a881ec2fe09c75cbe8d02509fc343f',
           'pubkeyhash': 'c158f33e1fa253d114ba8db5cdd2c383d6fe1318',
 
+To transfer money from one account to another you will need to run send_tx functions.
+    
+    def send_tx(coin, account, to, amount):
+    if coin == ETH:
+        raw_tx = create_tx(coin, account, to, amount)
+        signed = account.signTransaction(raw_tx)
+        return w3.eth.sendRawTransaction(signed.rawTransaction)
+    if coin == BTCTEST:
+        raw_tx = create_tx(coin, account, to, amount)
+        signed = account.sign_transaction(raw_tx)
+        return NetworkAPI.broadcast_tx_testnet(signed)
 
 ###  Send some BITCOIN transactions!
 
