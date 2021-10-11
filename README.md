@@ -131,12 +131,12 @@ To transfer money from one account to another you will need to run send_tx funct
      3. 9_Ethereum_Send Transaction_1 To Generated Wallet Account 2021-10-10 at 4.59.28 PM
      4. 10_Ethereum_Confirm Send Transaction 1 2021-10-10 at 4.59.59 PM
      5. 11_Ethereum_Check Send Transaction_1 Status2021-10-10 at 5.18.37 PM
-     6. 12_Ethereum_completed_Transaction 1 2021-10-10 at 9.16.12 PM
+     6. 12_Ethereum_successfull_Transaction 1 2021-10-11 at 12.31.17 AM
      7. 13_Ethereum_Successfull send Transaction 1 2021-10-10 at 5.05.18 PM
      8. 14_Ethereum_Send Transaction 2 to  generated Wallet account 2021-10-10 at 5.17.45 PM
      9. 15_Ethereum _Confirm Send Transaction 2 2021-10-10 at 5.18.19 PM
      10. 16_Ethereum_Check Send Transaction 2 Status 2021-10-10 at 5.00.33 PM
-     11. 17_Ethereum_Completede Transaction 2 2021-10-10 at 9.16.54 PM
+     11. 17_Ethereum_Successfull Transaction_2 2021-10-11 at 12.30.42 AM
      12. 18_Ethereum_Successful Send To Account Transaction 2  2021-10-10 at 5.20.45 PM
  
  
