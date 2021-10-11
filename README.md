@@ -16,7 +16,7 @@ The project involves transacting over blockchain Ethereum &amp; Test BitCoins us
   - `ETH = 'eth'`
   - `BTCTEST = 'btc-test'`
 
-- In `wallet.py`, import all constants: `from constants import *`
+- In `wallet.py`, import all constants: `from constants import BTC, BTCTEST, ETH`
 
 - Use these anytime you reference these strings, both in function calls, and in setting object keys.
 
