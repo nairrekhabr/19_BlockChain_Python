@@ -106,6 +106,10 @@ To transfer money from one account to another you will need to run send_tx funct
         raw_tx = create_tx(coin, account, to, amount)
         signed = account.sign_transaction(raw_tx)
         return NetworkAPI.broadcast_tx_testnet(signed)
+        <img width="707" alt="2 1_Bitcoin_Python_Send_Transaction_2021-10-12 at 1 01 49 PM" src="https://user-images.githubusercontent.com/83980061/137013038-95c9638e-db76-4fb3-8aba-2b04e86b8d92.png">
+
+        <img width="1437" alt="2 2_Bitcoin_Send_TX2_Python_2021-10-12 at 1 02 07 PM" src="https://user-images.githubusercontent.com/83980061/137013069-631761d7-8636-48e8-a1c5-989784258677.png">
+
 
 ###  Send some BITCOIN transactions!
 
